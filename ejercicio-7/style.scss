@@ -1,0 +1,12 @@
+@mixin box($w, $h, $bg) {
+    width: $w;
+    height: $h;
+    background-color: $bg;
+    margin-top: 5px;
+}
+.avatar {    
+    @include box(50px,50px,red)
+}
+.avatar-black {
+    @include box(50px,50px,rgb(0, 0, 0))
+}

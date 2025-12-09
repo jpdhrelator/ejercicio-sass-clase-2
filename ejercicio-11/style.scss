@@ -1,0 +1,11 @@
+@use "sass:math";
+
+
+.col-6 {
+   width: math.div(100%,2);
+   float: left;
+}
+.col-3 {
+   width: math.div(100%,3);
+   float: left;
+}

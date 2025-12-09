@@ -1,0 +1,13 @@
+.error, .success {
+  border: 3px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+.success {
+  border-color: green;
+}
+
+.error {
+  border-color: red;
+}/*# sourceMappingURL=style.css.map */

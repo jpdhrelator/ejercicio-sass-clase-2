@@ -1,0 +1,9 @@
+@use "sass:math";
+
+@function half-size($px){
+   @return math.div($px,2)
+}
+
+.container {
+   padding: half-size(40px);
+} 

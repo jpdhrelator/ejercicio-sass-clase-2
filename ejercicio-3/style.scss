@@ -1,0 +1,7 @@
+.btn {
+    background: blue;
+    transition: opacity 0.3s;
+
+    &:hover { opacity: 0.8;}
+    &.disabled { background: gray; cursor: not-allowed; }
+}
